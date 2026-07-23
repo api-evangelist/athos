@@ -1,8 +1,24 @@
 aid: athos
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/athos.png
 name: Athos
-description: Athos is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Athos is a sports performance technology company founded in 2012 and based in Redwood City,
+  California, that builds athletic apparel with embedded surface electromyography (EMG) sensors. Its
+  garments and snap-on Athos Core module capture muscle activity, effort, and motion data, streaming it
+  over Bluetooth to a mobile app and coaching dashboard so athletes, trainers, and sports scientists can
+  measure muscular exertion, fatigue, and return-to-play readiness in real time. Athos is a consumer and
+  team hardware brand with no publicly documented developer API; this profile was surfaced as a portfolio
+  company of Lightspeed Venture Partners and enriched for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/athos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Wearables
+- Fitness
+- Sports Performance
+- Electromyography
+- Health
+- Hardware
+- IoT
 apis: []
+common:
+- type: Website
+  url: https://www.liveathos.com/
+- type: Support
+  url: https://www.liveathos.com/support
+- type: HelpCenter
+  url: https://help.liveathos.com/en/
+- type: Blog
+  url: https://www.liveathos.com/brand/studies
+- type: Pricing
+  url: https://www.liveathos.com/shop
+- type: TermsOfService
+  url: https://www.liveathos.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.liveathos.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
